@@ -6,9 +6,7 @@ This project focuses on Cloud engineering fundamentals.
 
 ## 🔹 Architecture Overview
 
-User → AWS Security Group → EC2 (Amazon Linux) → Flask REST API  
-                                         ↓  
-                                  CloudWatch Metrics & Logs
+User → AWS Security Group → EC2 (Amazon Linux) → Flask REST API → CloudWatch Metrics & Logs
 
 ## 🔹 Features
 
