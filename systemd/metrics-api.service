@@ -1,0 +1,12 @@
+[Unit]
+Description=EC2 System Metrics API
+After=network.target
+
+[Service]
+User=ec2-user
+WorkingDirectory=/opt/metrics-api
+ExecStart=/usr/bin/python3 /opt/metrics-api/app.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
