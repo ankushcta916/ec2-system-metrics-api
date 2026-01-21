@@ -20,12 +20,13 @@ User → AWS Security Group → EC2 (Amazon Linux) → Flask REST API → CloudW
 
 ## 🔹 API Endpoints
 
-| Endpoint  | Description 
-| `/health` | Service health status 
-| `/cpu`    | CPU utilization 
-| `/memory` | Memory usage 
-| `/disk`   | Disk usage 
-| `/uptime` | Instance uptime 
+| Endpoint   | Description            |
+|------------|------------------------|
+| `/health`  | Service health status  |
+| `/cpu`     | CPU utilization        |
+| `/memory`  | Memory usage           |
+| `/disk`    | Disk usage             |
+| `/uptime`  | Instance uptime        |
 
 
 ## 🔹 AWS Services Used
